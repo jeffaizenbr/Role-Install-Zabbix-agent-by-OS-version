@@ -1,0 +1,6 @@
+---
+- hosts: zabbix-clients
+  roles:
+    - role: zabbix-agent
+      vars:
+        zabbix_agent_server: "192.168.122.199" 
